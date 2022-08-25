@@ -1,0 +1,31 @@
+{
+  "name": "crawler-binance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.1.2",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "mongodb": "^4.8.1",
+    "selenium-webdriver": "^4.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "mocha": "^10.0.0",
+    "prettier": "^2.6.2",
+    "socks5-https-client": "^1.2.1"
+  }
+}
